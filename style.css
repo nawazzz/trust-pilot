@@ -1,0 +1,380 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main-container{
+    width: 100%;
+}
+.header-container{
+    width: 100%;
+    background-color: rgb(4 4 34);
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(4 4 34);
+    
+}
+
+.header-left-part{
+    
+}
+.header-right-part{
+    width: 30%;
+}
+.header-left-part img{
+    width: 80%;
+}
+.header-menu{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.header-menu a{
+    text-decoration: none;
+    color: white;
+}
+.button-in-menu{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 3px;
+}
+.button-border{
+    border-bottom: 0px solid white;
+    padding-bottom: 20px;
+}
+.button-border:hover{
+    border-bottom: 2px solid white;
+
+}
+.hero-container{
+    width: 100%;
+    /* background-color: #E4A4B2; */
+    background-image: url("./assets/images/brittney-weng.jpg");
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.hero-center{
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 30px;
+}
+.heading-one{
+    width: 500px;
+    line-height: 1.5;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.heading-two{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+.search-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border: none;
+    background-color: white;
+}
+input {
+    border: 0px solid;
+    /* height: 20px;
+    width: 160px; */
+    /* color: #CCC; */
+    outline: none;
+    width: 560px;
+    padding: 20px;
+    font-size: 15px;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    
+}
+
+.heading-three{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.categories{
+    width: 691px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.categories a{
+    text-decoration: none;
+    color: white;
+}
+.small-box{
+    width: 107px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.small-box img{
+    padding: 10px;
+}
+.small-box a{
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.big-container{
+    width: 100%;
+    height: 1300px;
+    background-color: #dcdce6;
+}
+
+.review-heading{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+.slide-show{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.review-box{
+    width: 300px;
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.image-one img{
+    width: 50px;
+    border-radius: 50%;
+}
+.image-two img{
+    width: 100px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    
+}
+.review-box a{
+    text-decoration: none;
+}
+.reviewer-name{
+    font-size: 11px;
+    display: flex;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.reviewer-name a{
+    color: black;
+    font-weight: 700;
+}
+.if-reviewed{
+    font-size: 15px;
+}
+.comments{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.bottom-container{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.positioning-box{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.slide-bottom{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.inside-first-container{
+    width: 505px;
+    height: 500px;
+    background-color: white;
+    padding: 50px;
+    /* position: absolute;
+    top: 60px;
+    left: 60px; */
+}
+.inside-first-container img{
+    width: 100%;
+    
+}
+.heading-bottom{
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.robert{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.robert-experienced{
+    
+}
+.bottom-image{
+    padding: 20px;
+}
+.bottom-image img{
+    width: 200px;
+}
+.bottom-heading-container{
+    padding: 20px;
+}
+.robert-container{
+    padding: 20px;
+}
+.inside-second-box{
+    width: 200px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+.box-one img{
+    width: 100px;
+}
+.bottom-button{
+    background-color: transparent;
+    border: none;
+}
+.last-container{
+    width: 100%;
+    background-color: turquoise;   
+    margin-top: 66px;
+    padding-bottom: 20px;
+}
+.last-middle{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.be-hard{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 20px;
+}
+.trust-pilot{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.what-do-we-do{
+    padding: 10px;
+    border: 1px solid black;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.what-do-we-do a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.footer{
+    width: 100%;
+    background-color: black ;
+    padding: 20px;
+}
+.footer-container{
+    width: 70%
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.rights-reserved{
+    color: white;
+    padding-left: 20px;
+    font-size: 12px;
+}
